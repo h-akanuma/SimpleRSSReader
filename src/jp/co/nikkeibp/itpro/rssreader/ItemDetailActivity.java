@@ -1,5 +1,6 @@
 package jp.co.nikkeibp.itpro.rssreader;
 
+import android.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,7 +21,7 @@ public class ItemDetailActivity extends Activity {
 		mTitle = (TextView)findViewById(R.id.item_detail_title);
 		mTitle.setText(title);
 		String descr = intent.getStringExtra("DESCRIPTION");
-		mDescr = (TextView)findViewById(R.id.item_detail_descr)
+		mDescr = (TextView)findViewById(R.id.item_detail_descr);
 	}
 	
 	

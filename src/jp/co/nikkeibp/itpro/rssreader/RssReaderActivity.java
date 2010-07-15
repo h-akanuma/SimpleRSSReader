@@ -2,6 +2,7 @@ package jp.co.nikkeibp.itpro.rssreader;
 
 import java.util.ArrayList;
 
+import android.R;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
