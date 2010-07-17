@@ -20,6 +20,7 @@ public class RssReaderActivity extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
+        /* comment */
         mItems = new ArrayList<Item>();
         mAdapter = new RssListAdapter(this, mItems);
         
